@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>Bruce Tang</title>
+  <link rel='stylesheet' href='css/styles.css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+  <main class="content">
+
+    <!--Head Banner -->
+    <header class="banner">
+      <h1>BRUCE TANG</h1>
+      <!--dropdown menu-->
+      <div class='button' onclick="toggle()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <ul class="menu">
+      <li><a href="#education">Education</a></li>
+      <li><a href="#exp">Experiences</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#">Résumé</a></li>
+    </ul>
+
+
+    <!--sidebar-->
+    <!--Front Awesome library brand icons-->
+    <nav class='avatar'>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/yueqian-bruce-tang-10895a175" target="_blank"><i
+              class="fa fa-linkedin-square" style="font-size:4vw;color:#2867B2"></i></a></li>
+        <li><a href="https://github.com/bt-dot" target="_blank"> <i class="fa fa-github"
+              style="font-size:4vw; color:black"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100008124526008" target="_blank"><i
+              class="fa fa-facebook-square" style="font-size:4vw;color:#4267B2"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCgIWAIqzUo89i6Ui-_MmLRw?view_as=subscriber" target="_blank"><i
+              class="fa fa-youtube-play" style="font-size:4vw; color:#FF0000"></i></a></li>
+      </ul>
+    </nav>
+
+
+    <article>
+      <img id="me" src="img/3.jpeg" alt="picture of myself">
+      <div id="about">
+        <p> Hey there! I am a junior studying computer science and economics
+          at Bowdoin College. I am passionate about learning new technologies and
+          solving real-life problems with them. I value communication and teamwork,
+          and I am eager to start a career in software engineering, where hopefully my work
+          can make people’s lives just a little bit better.</p>
+        <p>I love playing basketball, reading comics, listening to Christmas music, and exploring new tech gadgets and
+          devices in my leisure time.</p>
+      </div>
+    </article>
+
+    <!-- main content -->
+    <div class='container'>
+      <article id="education">
+        <h2>Education</h2>
+        <h3>Bowdoin College</h3>
+        <h4>Computer Science and Economics</h4>
+        <h4>Class of 2022</h4>
+        <img src="img/polar.jpg">
+        <h4>Relevant Coursework</h4>
+        <ul>
+          <li>Introduction to Computer Science</li>
+          <li>Data Structures</li>
+          <li>Algorithms</li>
+          <li>Computer Systems</li>
+          <li>Data Driven Society</li>
+          <li>Advanced Integral Calculus </li>
+          <li>Principles of Microeconomics</li>
+          <li>Economic Policy</li>
+          <li>Intermediate Macroeconomics</li>
+        </ul>
+        <h4>Activities</h4>
+        <ul>
+          <li>IM and Club Basketball</li>
+          <li>LeetCode Club</li>
+          <li>Howell House Member(2019-2020)</li>
+        </ul>
+      </article>
+
+      <article id='exp'>
+        <h2>Experiences</h2>
+        <ul>
+          <li>
+            <h3><a href="https://bowdoin.teamdynamix.com/TDClient/1814/Portal/home/" target="_blank">Information
+                Technology</a>, Bowdoin College
+              <em>TechHub Student Services Assistant</em>
+              <span>September 2019-present</span>
+            </h3>
+            <ul class="explist">
+              <li> Utilized technical knowledge and experience to provide solutions and support to students and faculty.
+              </li>
+              <li>Communicated with staff and worked with student workers to resolve student software and hardware
+                issues,
+                including water damage recovery, system updates, replacing hardware components, WiFi and printer
+                connectivity issues, and checking warranty status.</li>
+            </ul>
+          </li>
+          <li>
+            <h3><a href="https://www.bowdoin.edu/admissions/" target="_blank">Admissions Office</a>, Bowdoin College
+              <em>Administrative Intern</em>
+              <span>January of 2019 and 2020</span>
+            </h3>
+            <ul class="explist">
+              <li> Evaluated and identified gaps and missing information in the incoming student applications.</li>
+              <li>Answered phone calls and questions from applicants and parents in regard to admissions information
+              </li>
+              <li>Assembled admitted packages along with hand-written postcards to welcome admitted students.</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </div>
+
+    <article id='project'>
+      <h2>Projects <span>(More on GitHub!)</span></h2>
+      <div id='p1'>
+        <h3><strong>Java</strong>: Darwin Game</h3>
+        <p>A simulator for an artificial world inhabited by creatures of various types.</p>
+        <img src="img/darwin.gif" alt="demo of Darwin Game">
+        <p class="caption">Rovers vs Ants</p>
+        <ul class="dropdown">
+          <li>Each species defines a particular behavior, which applies to creatures of that species. </li>
+          <li>Each creature independently interacts with the world by executing the steps of its behavior program.</li>
+          <li>The behavior programs are written in an opcode-like syntax, using simple instructions like: “ifwall, go
+            left” and “if enemy, doinfect.”</li>
+        </ul>
+        <p><a href="https://github.com/bt-dot/Data-Structure-Projects/tree/master/Darwin" target="_blank">Click Here To
+            See More!</a></p>
+      </div>
+
+      <div id='p2'>
+        <h3>Web Portfolio (This Site)</h3>
+        <p> A basic static website made with <strong>HTML</strong>, <strong>CSS</strong> and
+          <strong>JavaScript</strong>, hosted by <a href="https://aws.amazon.com/s3/" target='_blank'>Amazon S3</a>. The
+          page is also designed to work on mobile devices.
+        </p>
+        <h4>Here is a sliding puzzle game while you are here; Click shuffle to start!</h4>
+        <div id="window">
+          <ul class="grid">
+            <li><img class="ps" id="_00" src="img/ps1.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps" id="_01" src="img/ps2.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps" id="_02" src="img/ps3.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps" id="_10" src="img/ps4.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps" id="_11" src="img/ps5.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps canMove" id="_12" src="img/ps6.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps" id="_20" src="img/ps7.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps canMove" id="_21" src="img/ps8.jpg" alt="watchmen puzzle piece"></li>
+            <li><img class="ps empty" id="_22" src="img/ps9.jpg" alt="watchmen puzzle piece"></li>
+          </ul>
+          <p></p>
+          <button id="shuffle"">Shuffle</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+
+      <div id='p3'>
+        <h3>More Coming Soon!</h2>
+      </div>
+    </article>
+  </main>
+
+  <!--Footer -->
+  <footer class="bottom">
+    <p>June 2020, Bruce Tang</p>
+  </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
