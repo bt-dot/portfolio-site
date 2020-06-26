@@ -1,4 +1,4 @@
 # portfolio
-A basic static website made with HTML, CSS and JavaScript
+A basic static website made with HTML, CSS and JavaScript.
 
-Including an 8-puzzle game; using inversions to make sure the shuffles are solvable. 
+You can also find a 8-puzzle game in the project - p3 section of the HTML file; the majority of the javascript code implements the game. 
